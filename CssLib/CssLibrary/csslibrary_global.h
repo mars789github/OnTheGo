@@ -1,0 +1,12 @@
+#ifndef CSSLIBRARY_GLOBAL_H
+#define CSSLIBRARY_GLOBAL_H
+
+#include <QtCore/qglobal.h>
+
+#if defined(CSSLIBRARY_LIBRARY)
+#  define CSSLIBRARYSHARED_EXPORT Q_DECL_EXPORT
+#else
+#  define CSSLIBRARYSHARED_EXPORT Q_DECL_IMPORT
+#endif
+
+#endif // CSSLIBRARY_GLOBAL_H

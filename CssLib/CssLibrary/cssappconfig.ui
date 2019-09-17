@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CssAppConfig</class>
+ <widget class="QDialog" name="CssAppConfig">
+  <property name="windowModality">
+   <enum>Qt::ApplicationModal</enum>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>401</width>
+    <height>285</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <pointsize>10</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Configiuration</string>
+  </property>
+  <widget class="QWidget" name="formLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>8</x>
+     <y>9</y>
+     <width>341</width>
+     <height>201</height>
+    </rect>
+   </property>
+   <layout class="QFormLayout" name="formLayout">
+    <item row="0" column="0">
+     <widget class="QLabel" name="sigleLabel">
+      <property name="text">
+       <string>Sigle</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QLineEdit" name="sigle"/>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="organisationLabel">
+      <property name="text">
+       <string>Organisation</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QLineEdit" name="org"/>
+    </item>
+    <item row="2" column="0">
+     <widget class="QLabel" name="tLPhoneLabel">
+      <property name="text">
+       <string>Téléphone</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1">
+     <widget class="QLineEdit" name="phone"/>
+    </item>
+    <item row="3" column="0">
+     <widget class="QLabel" name="adresseLabel">
+      <property name="text">
+       <string>Adresse</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="1">
+     <widget class="QTextEdit" name="adress"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QPushButton" name="validate">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>229</y>
+     <width>120</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>120</width>
+     <height>40</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>120</width>
+     <height>40</height>
+    </size>
+   </property>
+   <property name="text">
+    <string>Valider</string>
+   </property>
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/res/icons8_Checkmark_104px_green.png</normaloff>:/res/icons8_Checkmark_104px_green.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>32</width>
+     <height>32</height>
+    </size>
+   </property>
+   <property name="flat">
+    <bool>false</bool>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="res.qrc"/>
+ </resources>
+ <connections/>
+</ui>

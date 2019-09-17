@@ -1,0 +1,34 @@
+<RCC>
+    <qresource prefix="/">
+        <file>res/background.png</file>
+        <file>res/icons8_Add_Tag_80px.png</file>
+        <file>res/icons8_Add_User_Male_80px_1.png</file>
+        <file>res/icons8_Camera_96px.png</file>
+        <file>res/icons8_Cash_in_Hand_80px.png</file>
+        <file>res/icons8_Checkmark_80px_1.png</file>
+        <file>res/icons8_Checkmark_104px_green.png</file>
+        <file>res/icons8_Checkmark_104px_red.png</file>
+        <file>res/icons8_Data_Transfer_100px.png</file>
+        <file>res/icons8_Delete_80px.png</file>
+        <file>res/icons8_Delete_104px.png</file>
+        <file>res/icons8_Down_104px_1.png</file>
+        <file>res/icons8_Edit_Property_96px.png</file>
+        <file>res/icons8_Empty_Trash_104px.png</file>
+        <file>res/icons8_Password_96px.png</file>
+        <file>res/icons8_Plus_Math_100px.png</file>
+        <file>res/icons8_Plus_Math_104px.png</file>
+        <file>res/icons8_Plus_Math_104px_1.png</file>
+        <file>res/icons8_Price_Tag_USD_104px.png</file>
+        <file>res/icons8_Print_64px.png</file>
+        <file>res/icons8_Print_96px.png</file>
+        <file>res/icons8_Settings_96px.png</file>
+        <file>res/icons8_Settings_96px_2.png</file>
+        <file>res/icons8_Synchronize_96px.png</file>
+        <file>res/icons8_Undo_104px.png</file>
+        <file>res/icons8_Up_104px.png</file>
+        <file>res/Logo Principal BSun.png</file>
+        <file>res/MainWindowBack.png</file>
+        <file>res/student_head.png</file>
+        <file>res/transparent_background.png</file>
+    </qresource>
+</RCC>
